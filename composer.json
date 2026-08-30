@@ -1,8 +1,21 @@
 {
     "name": "aegisora/numeric-range-rule-guardian",
-    "description": "<REPOSITORY_DESCRIPTION>",
+    "description": "Numeric Range Rule Guardian provides simple shortcuts for ensuring a numeric value falls within an expected range",
     "type": "library",
-    "keywords": ["php", "aegisora", "aegisora-ecosystem"],
+    "keywords": [
+        "php",
+        "aegisora",
+        "aegisora-ecosystem",
+        "validation",
+        "guardian",
+        "numeric",
+        "numeric-range",
+        "numeric-range-validation",
+        "numeric-range-rule",
+        "range",
+        "rule",
+        "rule-guardian"
+    ],
     "homepage": "https://github.com/Aegisora/numeric-range-rule-guardian",
     "support": {
         "issues": "https://github.com/Aegisora/numeric-range-rule-guardian/issues",
