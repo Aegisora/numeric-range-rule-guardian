@@ -128,4 +128,21 @@ class NumericRangeRuleGuardian
     ): void {
         $this->guardian->check($value, NumericRangeRule::createBetweenMinExclusive($min, $max), $exception);
     }
+
+    /**
+     * @param mixed $value
+     * @param numeric $min
+     * @param numeric $max
+     * @throws GuardianExecutingRuleException
+     * @throws GuardianValidationException
+     * @throws Throwable
+     */
+    public function checkBetweenMaxExclusive(
+        $value,
+        $min,
+        $max,
+        ?Throwable $exception = null
+    ): void {
+        $this->guardian->check($value, NumericRangeRule::createBetweenMaxExclusive($min, $max), $exception);
+    }
 }
