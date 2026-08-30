@@ -32,4 +32,19 @@ class NumericRangeRuleGuardian
     ): void {
         $this->guardian->check($value, NumericRangeRule::createGreaterThan($min), $exception);
     }
+
+    /**
+     * @param mixed $value
+     * @param numeric $min
+     * @throws GuardianExecutingRuleException
+     * @throws GuardianValidationException
+     * @throws Throwable
+     */
+    public function checkGreaterThanOrEqualTo(
+        $value,
+        $min,
+        ?Throwable $exception = null
+    ): void {
+        $this->guardian->check($value, NumericRangeRule::createGreaterThanOrEqualTo($min), $exception);
+    }
 }
