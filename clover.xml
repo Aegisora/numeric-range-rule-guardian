@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1788090565">
-  <project timestamp="1788090565">
+<coverage generated="1788091735">
+  <project timestamp="1788091735">
     <file name="/home/runner/work/numeric-range-rule-guardian/numeric-range-rule-guardian/src/NumericRangeRuleGuardian.php">
       <class name="Aegisora\RuleGuardians\NumericRangeRule\NumericRangeRuleGuardian" namespace="global">
-        <metrics complexity="9" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="18" coveredelements="0"/>
+        <metrics complexity="9" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="18" coveredelements="18"/>
       </class>
-      <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="18" type="stmt" count="0"/>
-      <line num="28" type="method" name="checkGreaterThan" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="33" type="stmt" count="0"/>
-      <line num="43" type="method" name="checkGreaterThanOrEqualTo" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="48" type="stmt" count="0"/>
-      <line num="58" type="method" name="checkLessThan" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="63" type="stmt" count="0"/>
-      <line num="73" type="method" name="checkLessThanOrEqualTo" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="78" type="stmt" count="0"/>
-      <line num="89" type="method" name="checkBetween" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="95" type="stmt" count="0"/>
-      <line num="106" type="method" name="checkBetweenExclusive" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="112" type="stmt" count="0"/>
-      <line num="123" type="method" name="checkBetweenMinExclusive" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="129" type="stmt" count="0"/>
-      <line num="140" type="method" name="checkBetweenMaxExclusive" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="146" type="stmt" count="0"/>
-      <metrics loc="149" ncloc="89" classes="1" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="18" coveredelements="0"/>
+      <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="147"/>
+      <line num="18" type="stmt" count="147"/>
+      <line num="28" type="method" name="checkGreaterThan" visibility="public" complexity="1" crap="1" count="19"/>
+      <line num="33" type="stmt" count="19"/>
+      <line num="43" type="method" name="checkGreaterThanOrEqualTo" visibility="public" complexity="1" crap="1" count="25"/>
+      <line num="48" type="stmt" count="25"/>
+      <line num="58" type="method" name="checkLessThan" visibility="public" complexity="1" crap="1" count="16"/>
+      <line num="63" type="stmt" count="16"/>
+      <line num="73" type="method" name="checkLessThanOrEqualTo" visibility="public" complexity="1" crap="1" count="14"/>
+      <line num="78" type="stmt" count="14"/>
+      <line num="89" type="method" name="checkBetween" visibility="public" complexity="1" crap="1" count="21"/>
+      <line num="95" type="stmt" count="21"/>
+      <line num="106" type="method" name="checkBetweenExclusive" visibility="public" complexity="1" crap="1" count="18"/>
+      <line num="112" type="stmt" count="18"/>
+      <line num="123" type="method" name="checkBetweenMinExclusive" visibility="public" complexity="1" crap="1" count="17"/>
+      <line num="129" type="stmt" count="17"/>
+      <line num="140" type="method" name="checkBetweenMaxExclusive" visibility="public" complexity="1" crap="1" count="17"/>
+      <line num="146" type="stmt" count="17"/>
+      <metrics loc="149" ncloc="89" classes="1" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="18" coveredelements="18"/>
     </file>
-    <metrics files="1" loc="149" ncloc="89" classes="1" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="18" coveredelements="0"/>
+    <metrics files="1" loc="149" ncloc="89" classes="1" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="18" coveredelements="18"/>
   </project>
 </coverage>
